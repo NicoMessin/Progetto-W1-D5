@@ -11,7 +11,7 @@ public class RegistrazioneAudio extends Titolo implements RiproduzioneComune{
     }
 
     public void alzaVolume() {
-        volume++;
+        if (volume<10){volume++;}
     }
 
     public void abbassaVolume() {
