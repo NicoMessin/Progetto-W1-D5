@@ -34,6 +34,9 @@ public class RiproduzioneVideo extends Titolo implements RiproduzioneComune {
 
     @Override
     public void play() {
-        System.out.println(getTitolo()+ "!".repeat(volume)+ "*".repeat(luminosita));
+        for (int i = 0; i < durata; i++) {
+
+            System.out.println(getTitolo() + "!".repeat(volume) + "*".repeat(luminosita));
+        }
     }
 }

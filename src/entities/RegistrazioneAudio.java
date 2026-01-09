@@ -23,6 +23,7 @@ public class RegistrazioneAudio extends Titolo implements RiproduzioneComune{
     @Override
     public void play() {
         for (int i = 0; i < durata; i++) {
+
             System.out.println(getTitolo() + "!".repeat(volume));
         }
     }
